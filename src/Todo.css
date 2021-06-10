@@ -1,0 +1,62 @@
+.container{
+  margin: auto;
+  max-width: 600px;
+
+}
+
+.done{
+  background-color: rgb(10, 240, 10);
+  border-radius: 50%;
+  text-decoration: line-through;
+}
+
+.undone{
+  background-color: rgb(185, 72, 72);
+  border-radius: 50%;
+  transition: 0.2s;
+}
+
+.taskDone{
+  text-decoration: line-through;
+}
+
+.btn{
+  padding: 0;
+  border: none;
+  background-color:white;
+  margin-left: 10px;
+}
+
+.delete{
+  transition: 0.2s;
+}
+
+.delete:hover{
+  background-color: rgb(187, 184, 184);
+}
+
+.undone:hover{
+  background-color: rgb(35, 153, 35);
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.item{
+  word-break: break-word;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.card{
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+}
