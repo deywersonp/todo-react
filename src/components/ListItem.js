@@ -5,7 +5,7 @@ function DoneImg(props) {
 
   if (props.done) {
     return (
-      <img className="done" src="./assets/check2.svg" alt="undoneTask" />
+      <img className="done" src="./assets/check2.svg" alt="doneTask" />
     )
   } else {
     return (
