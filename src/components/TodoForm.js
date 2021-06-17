@@ -25,7 +25,9 @@ function TodoForm(props) {
     <form>
       {/* Input recebe o valor vazio (para limpar o campo assim que o botão add
       for pressionado)  */}
-      <input onChange={handleChange} type="text" value={text} />
+      {/* ref={input[...]} adiciona auto-focus no input para assim que ele for exibido
+      já seja possível escrever sem a necessidade de clicar no input primeiro. */}
+      <input ref={input => input && input.focus()} onChange={handleChange} type="text" value={text} />
       <button onClick={addItem}>Adicionar Tarefa</button>
     </form>
   )
