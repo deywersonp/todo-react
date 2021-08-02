@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+<h1 align="center">
+  TODO with React.js
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-services-used">Services Used</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-## Available Scripts
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
-In the project directory, you can run:
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-### `yarn start`
+<br>
 
-Runs the app in the development mode.\
+## 💻 Project
+
+TODO with React.js is a project based on create online tasks list.
+
+<br><br>
+
+## 🚀 Technologies
+
+This project was developed using these techs:
+
+- [React](https://reactjs.org)
+
+<br>
+
+## 👨‍🔧 Services Used
+
+- GitHub
+
+<br>
+
+## 🎮 Getting Started
+
+If you want run this code, you can start cloning the repository using HTTP or SSH key.
+
+- Open your gitBash (git terminal)
+- Type `git clone`
+- Insert the HTTP or SSH key (on windows, shift + insert to paste on gitBash)
+- You can find this HTTP or SSH Key by clicking on `Code` on the top right in this repository
+![image](https://user-images.githubusercontent.com/79553681/127908398-a99c6944-b2b3-405a-89c2-7b55e9f9a3c6.png)
+
+- Once cloned you can open the project in your IDE and enter the codes below in the IDE terminal
+
+`yarn` To add the dependencies on the project.
+
+`yarn start` Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br>
 
-### `yarn test`
+## 📌 How to Use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1 - When you access the project, you will see the home page. In this page you can:
+#### 1.1 - Add a new task by clicking on `+` button
+#### 1.2 - Remove a task
+#### 1.3 - Mark a task as done
+![Homepage image](.github/home.png)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2 - When `+` button is clicked, a modal will be displayed for the task to be entered
+![Homepage_shuffle_repeat_image](.github/add-a-task.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2 - Tasks marked as done will be crossed out.
+![Homepage_shuffle_repeat_image](.github/marked-as-done.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `yarn eject`
+### Have you prepared your to-do list? Time to get your hands dirty!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🕵 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The main features of the application are:
+ - Storage of added tasks in localStorage
+ - Add a task
+ - Remove a task
+ - Mark a task as done
+ 
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :memo: License
 
-## Learn More
+This project is under MIT license.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ > In case of sensitive bugs like security vulnerabilities, please contact
+ > <a href = "mailto:deywerson.pereira@gmail.com">deywerson.pereira@gmail.com</a> directly instead of using issue tracker. We value your effort
+ > to improve the security and privacy of this project!
+ <br>
+ 
+---
+  
 
-### Code Splitting
+      
+Please follow on github and join us! Thanks for visiting me and good coding!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ♥ by <a href="https://github.com/deywersonp">Deywerson Pereira</a>
